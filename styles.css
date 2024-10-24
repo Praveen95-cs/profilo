@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+
+header {
+    background-color: #36c8b9;
+    color: white;
+    padding: 20px 0;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul li {
+    padding: 10px;
+    background-color: #eee;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #36c8b9;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Adjust chatbot positioning */
+#chatbot {
+    margin-top: 50px;  /* Increased margin to move it higher */
+    text-align: center;
+    margin-bottom: 100px;  /* Ensure space between chatbot and footer */
+}
+
+.chatbox {
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#chat-log {
+    height: 200px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#user-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#send-btn {
+    padding: 10px 15px;
+    background-color: #36c8b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #36c8b9;
+}
